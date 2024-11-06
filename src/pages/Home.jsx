@@ -3,7 +3,8 @@ import Hero from "../components/Hero";
 const Home = ()=>{
     return(
         <>
-        <Hero/>
+        <Hero heading="Clean Blog" subHeading="A Blog Theme By Start Bootstrap" 
+        header={{backgroundImage: "url('assets/img/home-bg.jpg')"}}/>
         <div className="container px-4 px-lg-5">
             
             <div className="row gx-4 gx-lg-5 justify-content-center">

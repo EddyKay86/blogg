@@ -1,5 +1,11 @@
+import Hero from "../components/Hero";
+
 const Post = ()=>{
     return(
+        <>
+        <Hero heading={"Man must explore, and this is exploration at its greatest"} 
+        subHeading={"Problems look mighty small from 150 miles up"}
+        header={{backgroundImage: "url('assets/img/post-bg.jpg')"}}/>
         <article className="mb-4">
             <div className="container px-4 px-lg-5">
                 <div className="row gx-4 gx-lg-5 justify-content-center">
@@ -30,6 +36,7 @@ const Post = ()=>{
                 </div>
             </div>
         </article>
+        </>
     )
 }
 

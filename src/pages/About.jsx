@@ -2,7 +2,8 @@ import Hero from "../components/Hero"
 const About = ()=>{
     return(
         <>
-        <Hero/>
+        <Hero heading="About Me" subHeading="This What I Do"
+        header={{backgroundImage: "url('assets/img/about-bg.jpg')"}}/>
         <main className="mb-4">         
             <div className="container px-4 px-lg-5">
                 <div className="row gx-4 gx-lg-5 justify-content-center">

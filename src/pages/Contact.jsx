@@ -2,7 +2,8 @@ import Hero from "../components/Hero"
 const Contact = ()=>{
     return(
         <>
-        <Hero/>
+        <Hero heading={"Contact Me"} subHeading={"Have questions? I have answers."}
+        header={{backgroundImage: "url('assets/img/contact-bg.jpg')"}}/>
         <main className="mb-4">
             <div className="container px-4 px-lg-5">
                 <div className="row gx-4 gx-lg-5 justify-content-center">
@@ -34,7 +35,7 @@ const Contact = ()=>{
                                     <div className="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
                                 </div>
                                 <div className="form-floating">
-                                    <textarea className="form-control" id="message" placeholder="Enter your message here..." style="height: 12rem" data-sb-validations="required"></textarea>
+                                    <textarea className="form-control" id="message" placeholder="Enter your message here..." style={{height: "12rem"}} data-sb-validations="required"></textarea>
                                     <label for="message">Message</label>
                                     <div className="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
                                 </div>
